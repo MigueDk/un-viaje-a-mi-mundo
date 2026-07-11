@@ -1,0 +1,16 @@
+Los videos de este proyecto se manejan de dos formas:
+
+1) YouTube (recomendado)
+   En index.html, busca los bloques:
+     <div class="video-slot" data-youtube="" data-title="...">
+   Y coloca el enlace o el ID de YouTube dentro de data-youtube, por ejemplo:
+     <div class="video-slot" data-youtube="https://www.youtube.com/watch?v=XXXXXXXXXXX" ...>
+   El script.js detecta el enlace automáticamente y crea el reproductor
+   incrustado y responsivo. Mientras esté vacío, se mostrará el aviso
+   "FALTA: pega aquí la URL o el ID de YouTube".
+
+2) Video local
+   Si prefieres subir un archivo de video propio, colócalo en esta
+   carpeta (ej: videos/quien-soy.mp4) y reemplaza el <div class="video-slot">
+   correspondiente en index.html por:
+     <video class="video-slot" controls src="videos/quien-soy.mp4"></video>

@@ -1,0 +1,30 @@
+Coloca aquí tus imágenes reales con estos nombres exactos
+(así el sitio las reconoce automáticamente, sin tocar el HTML):
+
+INICIO
+  perfil-hero.jpg            → foto de perfil del hero
+
+UN VIAJE A MI MUNDO
+  historia-01.jpg ... historia-04.jpg   → imágenes de la línea de tiempo
+  inspira-foto.jpg            → foto de la persona que te inspira
+  reir-01.jpg / reir-02.jpg / reir-03.jpg → imágenes o memes del Top 3
+  playlist-01.jpg / playlist-02.jpg / playlist-03.jpg → portadas de canciones
+
+MI LUGAR EN EL MUNDO
+  heroe-01.jpg / heroe-02.jpg / heroe-03.jpg  → galería "¿Por qué soy un héroe?"
+  futuro-corto.jpg / futuro-mediano.jpg / futuro-largo.jpg → línea de tiempo del futuro
+
+APRENDIZAJES DE LOS HÉROES
+  heroe-lider-01.jpg / heroe-lider-02.jpg / heroe-lider-03.jpg
+
+BITÁCORA DE CLASE
+  bitacora-01.jpg ... bitacora-08.jpg
+
+Si necesitas más elementos de los que ya existen (por ejemplo, un
+quinto hito en la línea de tiempo), duplica el bloque HTML
+correspondiente en index.html y dale un nombre de imagen nuevo,
+por ejemplo historia-05.jpg.
+
+Mientras una imagen no exista, el sitio mostrará automáticamente
+una caja con el texto "FALTA: ..." indicando qué imagen falta —
+no es un error, es un recordatorio visual.
